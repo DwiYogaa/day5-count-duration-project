@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Contact Me</title>
+</head>
+<body>
+    <nav>
+        <div class="left-side"> 
+            <a href="index.html">
+                <img src="assets/images/logo.png" alt="">
+            </a>
+            <div id="homeProject">
+                <a href="index.html">Home</a>
+                <a href="my-project.html">My Project</a>
+            </div>
+        </div>
+        <div class="right-side">
+            <a href="contact-me.html">Contact Me</a>
+        </div>
+    </nav>
+
+    <div class="contactme">
+        <h1>Get In Touch</h1>
+        <form>
+            <div>
+                <label for="input-name">Name</label>
+                <input id="input-name" type="text">
+            </div>
+            <div>
+                <label for="input-email">Email</label>
+                <input id="input-email" type="email">
+            </div>
+            <div>
+                <label for="input-phone">Phone Number</label>
+                <input id="input-phone" type="number">
+            </div>
+            <div>
+                <label for="input-subject">Subject</label>
+                <select id="input-subject">
+                    <option hidden></option>
+                    <option>Lets Talk</option>
+                    <option>Lets Collaboration</option>
+                    <option>Lets Create Project</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="input-message">Your Message</label>
+                <textarea name="" id="input-message" cols="30" rows="8" class="message"></textarea>
+            </div>
+            
+            <button class="submit" type="button" onclick="submitData('event')">Submit</button> 
+        </form>
+    </div>
+
+    <script src="assets/js/contact.js"></script>
+</body>
+</html>

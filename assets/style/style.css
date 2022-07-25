@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Quicksand:wght@400;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0cm;
+    background-color:#91EAE4;
+}
+
+/* ==== start css Navbar ==== */
+nav {
+    display: flex;
+    height: 7vh;
+    background-color: #488582;
+}
+
+nav div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+nav .left-side {
+    padding-left: 50px;
+}
+
+nav .left-side img {
+    margin-right: 40px;
+}
+
+nav .left-side a {
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    -webkit-border-radius: 5p;
+    -moz-border-radius: 5p;
+    -ms-border-radius: 5p;
+    -o-border-radius: 5p;
+}
+
+nav .right-side {
+    padding-right: 50px;
+    justify-content: end;
+}
+
+nav .right-side a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(20, 20, 68);
+    padding: 5px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+nav .left-side #homeProject a:hover{
+    background-color: lightblue;
+}
+
+nav .right-side a:hover{
+    background-color: lightblue;
+}
+/* ==== end css navbar layout ==== */
+
+
+/* === start Css home === */
+.containerHome{
+    background-color: #dcf7f5;
+    display: flex;
+    margin-top: 100px;
+    border: 1px solid black;
+    width: 700px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+    margin-left: 300px;
+}
+.images{
+    border: 1px solid black;
+    width: 250px;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 20px;
+    margin-right: auto;
+    box-shadow: 0px 0px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -ms-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+}
+.textName{
+    text-align:center; 
+    margin-top: 10px;
+    font-weight: bold;
+} 
+.contact .bi-download a:hover{
+    background-color: lightblue;
+}
+.pc-me .contact{
+    background-color: black;
+    color:white;
+    margin-right: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+.pc-me .download{
+    color:black;
+    margin-right: 20px;
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: 600;
+}
+.bi-download{
+    margin-left: 5px;
+    font-size: 20px;
+}
+.pc-sm{
+    margin-top: 40px;
+    margin-left: 20px;
+    word-spacing: 10px;
+}
+.bi-linkedin{
+    color: black;
+    font-size: 40px;
+}
+.bi-instagram{
+    color: black;
+    font-size: 40px;
+}
+.bi-facebook{
+    color: black;
+    font-size: 40px;
+}
+.bi-twitter{
+    color: black;
+    font-size: 40px;
+}
+/*=== end Css home ===*/
+
+
+/*=== Start css contactme ===*/
+.contactme{
+    font-weight: 600;
+    padding-top: 20px;
+    width: 400px;
+    margin:auto;
+}
+
+.contactme h1{
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#input-name{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+ }
+
+#input-email{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+
+#input-phone{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+ }
+
+ #input-subject{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+#input-message {
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-top: 5px;
+}
+
+button{
+    width: 100px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(20, 20, 68);
+    border-radius: 15px;
+    font-size: 15px;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.contactme button:hover {
+    background:  rgb(175, 252, 60);
+  }
+
+/*=== end css contactme ===*/
+
+/*=== Start css New Project ===*/
+  /*title*/
+
+  
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0;
+}
+.inputWrapper input {
+    border: none;
+    padding: 12px 12px;
+    border-radius: 10px;
+    margin-top: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.inputWrapper label {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Description*/
+.inputWrapper textarea {
+    resize: none;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 12px;
+    
+}
+
+.labelTecnologies {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.buttonWrapper {
+    justify-content: end;
+    margin: 5px 0;
+}
+
+.buttonWrapper button {
+    border: none;
+    width: 100px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(20, 20, 68);
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.buttonWrapper button:hover {
+    background: rgb(175, 252, 60);
+  }
+/* input project */
+
+#container2{
+    background-color:#e1f7f5;
+}
+
+.formInputContainer {
+    width: 60%;
+    margin: auto;
+}
+
+.formInputContainer form {
+    box-sizing: border-box;
+}
+
+.titleProject {
+    text-align: center;
+}
+
+.inputDateProject {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.leftDate {
+    width: 50%;
+}
+
+.rightDate {
+    width: 50%;
+    margin-left: 8px;
+}
+
+.input-blog-image-group {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 8px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.input-blog-image-group label p {
+    font-size: 15px;
+    margin: 0;
+    background-color: #c4c4c4;
+    padding: 9px 32px;
+    border-radius: 8px 0 0 8px;
+}
+
+.input-blog-image-group label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*End New Project*/
+
+/*Start My Project*/
+
+.projectRender {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.cardProjectRender {
+    background-color: white;
+    width: 300px;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0 0 15px black;
+    margin: 0 8px 38px 8px;
+}
+
+.cardProjectRender p {
+    margin: 0;
+}
+
+.projectImgWrapper {
+    border-radius: 15px;
+    width: 100%;
+    height: 200px;
+}
+
+.projectImgWrapper img {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.projectContentWrapper {
+    margin-top: 14px;
+}
+
+.titleCardProject {
+    font-weight: 700;
+    font-size: 22px;
+    color: #112B3C;
+    text-decoration: none;
+}
+
+.iconCardProject {
+    display: flex;
+    align-items: center;
+}
+
+.iconCardProject i {
+    font-size: 28px;
+    margin-right: 18px;
+    color:grey;
+}
+
+.distanceCardProject {
+    color: grey;
+    margin-bottom: 16px !important;
+    font-weight: 300;
+}
+
+.descCardProject {
+    font-size: 14px;
+    margin-bottom: 18px !important;
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.cardProjectAction {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+
+.cardEditAction {
+    width: 42%;
+    text-align: center;
+    padding: 8px;
+    border: 2px solid orange;
+    border-radius: 15px;
+    color: orange;
+    text-decoration: none;
+}
+
+.cardDeleteAction {
+    width: 42%;
+    text-align: center;
+    padding: 8px;
+    background-color:red;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.cardProjectContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.checkBoxWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkBoxLeftItem {
+    display: flex;
+    flex-direction: column;
+    margin-right: 44px;
+}
+
+.checkBoxRightItem {
+    display: flex;
+    flex-direction: column;
+    margin-right: 44px;
+}
+
+  /*=== End css My Project ===*/
+
+/*=== Start css my project detail ===*/
+  .project-detail {
+    /* background-color: aquamarine; */
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px 50px 100px;
+  }
+  
+  .project-detail h2 {
+    text-align: center;
+    padding: 28px 0;
+  }
+  
+  .project-detail .detail {
+    /* background-color: #dcf7f5; */
+    display: flex;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  
+  .project-detail .detail .detail-left {
+    /* background-color: gray; */
+    display: flex;
+    width: 70%;
+  }
+  
+  .project-detail .detail .detail-left img {
+    width: 100%;
+    object-fit: cover;
+    padding: 0 100px 0 0;
+  }
+  
+  .project-detail .detail .detail-right {
+    /* background-color: aquamarine; */
+    margin-left: 50px;
+    padding: 24px 0 0 12px;
+    width: 50%;
+  }
+  
+  .project-detail .detail .detail-right h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  
+  .project-detail .detail .detail-right .duration {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+  
+  .project-detail .detail .detail-right .duration i {
+    font-weight: 600;
+    margin-right: 8px;
+    padding: 4px 12px;
+    font-size: 24px;
+  }
+  
+  .project-detail .detail .detail-right .technologis {
+    display: flex;
+    width: 100%;
+  }
+  
+  .project-detail .detail .detail-right .technologis i {
+    font-weight: 600;
+    margin-right: 8px;
+    padding: 4px 12px;
+    font-size: 25px;
+  }
+
+  .project-detail .detail .detail-right .technologis .technologis-left {
+    /* background-color:aqua; */
+    width: 50%;
+  }
+  
+  
+  .project-detail .detail .detail-right .technologis .technologis-right {
+    /* background-color: yellow; */
+    width: 50%;
+  }
+  
+  .project-detail .detail-description {
+    font-size: 14px;
+    margin-top: 12px;
+    line-height: 18px;
+  }
+  /*=== End css my project detail ===*/
+
+  
